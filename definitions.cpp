@@ -12,7 +12,8 @@ bool checkIfEmpty(const std::string s) {
 }
 
 // counts the occurrences of a char in a string and compresses the char and frequency in another string
-std::string countAndCompressString(const std::string s) {
+std::string countAndCompressString(const std::string &s) {
+
     std::string s2;
     bool flag = false;
     int count = 1;

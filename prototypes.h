@@ -10,6 +10,6 @@
 #define PROTOTYPES_H
 
 bool checkIfEmpty(const std::string);                  // checks if string is empty
-std::string countAndCompressString(const std::string); // counts the occurrences of a char in a string and compresses the char and frequency in another string
+std::string countAndCompressString(const std::string&); // counts the occurrences of a char in a string and compresses the char and frequency in another string
 
 #endif //PROTOTYPES_H
